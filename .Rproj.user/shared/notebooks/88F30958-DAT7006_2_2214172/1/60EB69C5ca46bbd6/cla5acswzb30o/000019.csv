@@ -1,0 +1,8 @@
+"0","# Winsorize the data"
+"0","probs <- c(0.05, 0.95)"
+"0","z_scores_winsorized <- apply(w_sample_df, 2, function(x) DescTools::Winsorize(x, probs = probs))"
+"0","excluded_cols <- colnames(w_sample[, -which(names(w_sample) %in% outlier_cols)])"
+"0","wsample_winsorized <- cbind(z_scores_winsorized, w_sample[, excluded_cols])"
+"0","wsample_winsorized <- wsample_winsorized %>%"
+"0","  select(lat, long, datetime, TSK, PSFC, U10, V10, Q2, RAINC, RAINNC, SNOW, TSLB, SMOIS)"
+"0","print(wsample_winsorized)"

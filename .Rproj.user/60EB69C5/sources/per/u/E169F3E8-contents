@@ -1,0 +1,33 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+# Read the data
+weather_data <- read.csv("WRFdata_May2018.csv")
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+str(weather_data)
+
+```
+```{r}
+# Remove duplicate row
+weather_data <- unique(weather_data)
+
+# Remove any row with NA in Latitude and Longitude
+weather_data <- weather_data[complete.cases(weather_data[,1:2]), ]
+```
+
+

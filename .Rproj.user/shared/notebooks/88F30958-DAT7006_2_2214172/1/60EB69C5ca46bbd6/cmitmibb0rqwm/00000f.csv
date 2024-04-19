@@ -1,0 +1,7 @@
+"0","# Extract the columns for outlier detection"
+"0","outlier_cols <- c(""TSK"", ""PSFC"", ""U10"", ""V10"", ""Q2"", ""RAINC"", ""RAINNC"", ""SNOW"", ""TSLB"", ""SMOIS"")"
+"0","w_sample_df <- w_sample[, outlier_cols]"
+"0","z_scores <- scale(w_sample_df)"
+"0","threshold <- 3"
+"0","outliers <- which(abs(z_scores) > threshold, arr.ind = TRUE)"
+"0",""

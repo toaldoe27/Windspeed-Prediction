@@ -1,0 +1,4 @@
+"0","# highest value recorded for each variable"
+"0","max_var <- wsample_new %>% "
+"0","  summarise(across(c(TSK, PSFC, Q2, RAINC, RAINNC, SNOW, TSLB, SMOIS, wind_speed), ~ .[which.max(.)]))"
+"0","max_var"

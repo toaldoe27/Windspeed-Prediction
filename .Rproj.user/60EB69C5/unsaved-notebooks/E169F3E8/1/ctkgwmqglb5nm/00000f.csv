@@ -1,0 +1,2 @@
+"0","# Read the data"
+"0","weather_data <- read.csv(""WRFdata_May2018.csv"")"

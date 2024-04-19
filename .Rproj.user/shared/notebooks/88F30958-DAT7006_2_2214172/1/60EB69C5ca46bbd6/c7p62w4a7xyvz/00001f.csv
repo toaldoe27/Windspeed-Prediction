@@ -1,0 +1,5 @@
+"0","# Create a variable to represent time"
+"0","LC_data <- LC_data %>%"
+"0","  mutate(time = as.numeric(difftime(datetime, min(datetime), units = ""hours""))) %>%"
+"0","  select(-wind_speed_category)"
+"0","print(LC_data)"

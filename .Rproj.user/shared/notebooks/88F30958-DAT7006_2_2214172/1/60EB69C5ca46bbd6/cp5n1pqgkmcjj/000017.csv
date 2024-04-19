@@ -1,0 +1,7 @@
+"0","LC_data_arima <- copy(LC_data)"
+"0","# Create separate columns for year, month, day,and hour"
+"0","LC_data_arima$Year <- as.numeric(format(LC_data_arima$datetime,""%Y""))"
+"0","LC_data_arima$Month <- as.numeric(format(LC_data_arima$datetime,""%m ""))"
+"0","LC_data_arima$Day <- as.numeric(format (LC_data_arima$datetime,""%d""))"
+"0","LC_data_arima$Hour <- as.numeric(format(LC_data_arima$datetime,""%H""))"
+"0","print (LC_data_arima)"
