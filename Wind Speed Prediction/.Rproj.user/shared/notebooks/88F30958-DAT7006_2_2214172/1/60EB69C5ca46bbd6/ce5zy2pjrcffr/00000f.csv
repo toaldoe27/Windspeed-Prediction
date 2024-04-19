@@ -1,0 +1,4 @@
+"0","train_end_idx <- which(LC_data_arima$Year == 2018 &"
+"0","                         LC_data_arima$Month == 5 &"
+"0","                         LC_data_arima$Day == 25 &"
+"0","                         LC_data_arima$Hour == 15)[1]"

@@ -1,0 +1,7 @@
+"0","# Time series plot"
+"0","ggplot(LC_data, aes(x = datetime, y = wind_speed)) +"
+"0","  geom_line(color = ""blue"") +"
+"0","  labs(title = ""Wind_Speed Concentration Over Time"","
+"0","       x = ""Date and Time"","
+"0","       y = ""Wind_Speed Concentration"") +"
+"0","  theme_minimal()"

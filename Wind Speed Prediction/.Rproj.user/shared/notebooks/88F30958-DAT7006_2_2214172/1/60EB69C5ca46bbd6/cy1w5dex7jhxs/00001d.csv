@@ -1,0 +1,4 @@
+"0","# Preprocess dataset"
+"0","LC_data <- df3 %>%"
+"0","  select(datetime, wind_speed)"
+"0","print(LC_data)"

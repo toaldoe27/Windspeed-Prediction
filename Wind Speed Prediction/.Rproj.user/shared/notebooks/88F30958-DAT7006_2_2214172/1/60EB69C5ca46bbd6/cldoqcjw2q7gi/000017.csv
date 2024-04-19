@@ -1,0 +1,3 @@
+"0","# Remove unnecessary columns"
+"0","LC_data_arima <- LC_data_arima %>% select(-datetime, -time)"
+"0","print(LC_data_arima)"

@@ -1,0 +1,73 @@
+"0","# Install and load the necessary libraries"
+"0","install.packages(""dplyr"")"
+"1","Installing dplyr [1.1.2] ...
+"
+"1","	OK [linked cache in 5.7 milliseconds]
+"
+"1","* Installed 1 package in 0.55 seconds.
+"
+"0","install.packages(""tidyr"")"
+"1","Installing tidyr [1.3.0] ...
+"
+"1","	OK [linked cache in 4 milliseconds]
+"
+"1","* Installed 1 package in 0.28 seconds.
+"
+"0","install.packages(""tidyverse"")"
+"1","Installing tidyverse [2.0.0] ...
+"
+"1","	OK [linked cache in 3.4 milliseconds]
+"
+"1","* Installed 1 package in 1.7 seconds.
+"
+"0","install.packages(""lubridate"")"
+"1","Installing lubridate [1.9.2] ...
+"
+"1","	OK [linked cache in 3.8 milliseconds]
+"
+"1","* Installed 1 package in 98 milliseconds.
+"
+"0","install.packages(""ggplot2"")"
+"1","Installing ggplot2 [3.4.2] ...
+"
+"1","	OK [linked cache in 3.2 milliseconds]
+"
+"1","* Installed 1 package in 0.42 seconds.
+"
+"0","install.packages(""imputeTS"")"
+"1","Installing imputeTS [3.3] ...
+"
+"1","	OK [linked cache in 6.4 milliseconds]
+"
+"1","* Installed 1 package in 0.55 seconds.
+"
+"0","install.packages(""DescTools"")"
+"1","Installing DescTools [0.99.48] ...
+"
+"1","	OK [linked cache in 4.7 milliseconds]
+"
+"1","* Installed 1 package in 0.4 seconds.
+"
+"0","install.packages(""ggpubr"")"
+"1","Installing ggpubr [0.6.0] ...
+"
+"1","	OK [linked cache in 18 milliseconds]
+"
+"1","* Installed 1 package in 1.2 seconds.
+"
+"0","install.packages(""randomForest"")"
+"1","Installing randomForest [4.7-1.1] ...
+"
+"1","	OK [linked cache in 3.2 milliseconds]
+"
+"1","* Installed 1 package in 74 milliseconds.
+"
+"0","library(dplyr)"
+"0","library(tidyr)"
+"0","library(tidyverse)"
+"0","library(lubridate)"
+"0","library(ggplot2)"
+"0","library(imputeTS)"
+"0","library(DescTools)"
+"0","library(ggpubr)"
+"0",""

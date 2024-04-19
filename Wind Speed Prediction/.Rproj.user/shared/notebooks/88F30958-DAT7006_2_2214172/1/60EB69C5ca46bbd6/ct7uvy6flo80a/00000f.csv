@@ -1,0 +1,8 @@
+"0","# Feature engineering"
+"0","wsample_new <- wsample_winsorized %>% "
+"0","  mutate(wind_speed = sqrt(U10^2 + V10^2))"
+"0","sum(is.na(wsample_new$wind_speed))"
+"1","[1]"
+"1"," 0"
+"1","
+"

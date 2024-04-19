@@ -1,0 +1,11 @@
+"0","# Find the row index of the maximum value for each variable"
+"0","max_row <- sapply(wsample_new[,c(""TSK"", ""PSFC"", ""Q2"", ""RAINC"", ""RAINNC"", ""SNOW"", ""TSLB"", ""SMOIS"", ""wind_speed"")], which.max)"
+"0",""
+"0","# Extract the latitude and longitude values for each maximum"
+"0","max_location <- wsample_new[max_row, c(""lat"", ""long"")]"
+"0",""
+"0","# Print the result"
+"0","cat(""Location with highest values:\n"")"
+"1","Location with highest values:
+"
+"0","max_location"

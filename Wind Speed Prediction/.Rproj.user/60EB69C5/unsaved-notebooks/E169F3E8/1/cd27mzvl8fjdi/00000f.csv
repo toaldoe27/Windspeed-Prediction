@@ -1,0 +1,5 @@
+"0","# Remove duplicate row"
+"0","weather_data <- unique(weather_data)"
+"0",""
+"0","# Remove any row with NA in Latitude and Longitude"
+"0","weather_data <- weather_data[complete.cases(weather_data[,1:2]), ]"

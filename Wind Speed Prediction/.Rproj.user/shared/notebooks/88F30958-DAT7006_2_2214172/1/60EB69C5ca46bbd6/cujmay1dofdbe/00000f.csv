@@ -1,0 +1,8 @@
+"0","install.packages(""randomForest"")"
+"1","Installing randomForest [4.7-1.1] ...
+"
+"1","	OK [linked cache in 9.6 milliseconds]
+"
+"1","* Installed 1 package in 0.11 seconds.
+"
+"0","library(randomForest)"
